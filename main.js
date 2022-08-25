@@ -14,29 +14,11 @@ while(( año >= 1582) && ("SALIR")){
 }
 
 
-
-/* 2-Do Ejercicio */
-/* Calculamos los numeros Primos*/
-/* alert("Calculo de Numero Primo");
-let numero =  (parseInt(prompt("Ingrese un Numero mayor que 1 para determinar si es primo o no!")))
-while((numero >1 ) && (numero != "SALIR")){
-    if((numero % 1 === 0) && (numero % numero === 0)){
-        alert(`${numero}  Es un numero Primo`);
-    }
-    else{
-        alert(`${numero} No es un numero Primo`);
-    }
-    let numero1 = parseInt(prompt("Ingrese otro Numero o escriba ( SALIR )"));
-    numero = numero1;
-} */
-
-
-/* 3-Er Ejercicio */
+/* 2-do Ejercicio */
 alert(" Retira tu Turno !");
 nombre = prompt("Ingrese su Nombre!");
 for(let i = 0; i >= 0; i++){
     alert(`${nombre} Tu Turno es# ${i}`);
-    
     nombrex = prompt("Ingrese su Nombre!");
     nombre = nombrex;
 }
